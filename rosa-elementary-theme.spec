@@ -1,27 +1,36 @@
 %define tarname	rosa-elementary-theme
 %define name	rosa-elementary-theme
-%define version	2.4.2
-%define release %mkrel 1
+%define version	2.5.1
+%define release 1
 
 Summary:	ROSA-elementary theme
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Source0:	%{tarname}-%{version}.tar.gz
+#Theme for openbox
+Source1:	%{tarname}-openbox.tar.gz
+# new metacity theme
+Source2:	metacity-1.tar.bz2
 License:	GPLv2
 Group:		Graphical desktop/Other
+URL:		www.rosalinux.com
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Requires: 	murrine
+Requires:	murrine
 Requires:	gtk-aurora-engine
 Suggests:	rosa-icons
 
 %description
-ROSA-elementary theme creates specially for the Mandriva. Based on the original theme
-by Daniel Fore (aka Dan Rabbit).
+ROSA-elementary theme creates specially for the ROSA.
+Originally based on Elementary theme by Daniel Fore 
+(aka Dan Rabbit).
 
 %prep
-%setup -q
+%setup -q -a1
+rm -fr metacity-1
+
+tar xjf %{SOURCE2}
 
 %install
 %__rm -rf %{buildroot}
@@ -34,4 +43,4 @@ cp -rf ./* %{buildroot}%{_datadir}/themes/rosa-elementary
 
 %files
 %defattr(644,root,root,755)
-%{_datadir}/themes/rosa-elementary/*
+%{_datadir}/themes/*
