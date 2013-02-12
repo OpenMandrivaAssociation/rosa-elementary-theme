@@ -1,7 +1,7 @@
 %define tarname	rosa-elementary-theme
 %define name	rosa-elementary-theme
 %define version	2.5.2
-%define release 1
+%define release 2
 
 Summary:	ROSA-elementary theme
 Name:		%{name}
