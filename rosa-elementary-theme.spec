@@ -39,4 +39,5 @@ cp -rf ./rosa-1.0.0/* %{buildroot}%{_datadir}/apps/aurorae/themes/rosa/
 
 %files
 %{_datadir}/themes/*
+%dir %{_datadir}/apps/aurorae/themes/rosa
 %{_datadir}/apps/aurorae/themes/rosa/*
