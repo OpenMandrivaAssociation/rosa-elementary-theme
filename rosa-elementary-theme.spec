@@ -30,7 +30,6 @@ tar xjf %{SOURCE2}
 tar xJf %{SOURCE3}
 
 %install
-rm -rf %{buildroot}
 mkdir -p %{buildroot}%{_datadir}/themes
 mkdir -p %{buildroot}%{_datadir}/themes/rosa-elementary
 cp -rf ./* %{buildroot}%{_datadir}/themes/rosa-elementary
