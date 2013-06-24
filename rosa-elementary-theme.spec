@@ -1,14 +1,14 @@
 Summary:	ROSA-elementary theme
 Name:		rosa-elementary-theme
-Version:	2.5.2
-Release:	3
+Version:	2.6.1
+Release:	1
 Source0:	%{name}-%{version}.tar.gz
 #Theme for openbox
 Source1:	%{name}-openbox.tar.gz
 # new metacity theme
 Source2:	metacity-1.tar.bz2
 #Aurorae theme
-Source3:	rosa-aurorae-1.0.0.tar.xz
+Source3:	rosa-aurorae-1.0.1.tar.xz
 License:	GPLv2
 Group:		Graphical desktop/Other
 URL:		http://www.rosalinux.com
@@ -34,7 +34,7 @@ mkdir -p %{buildroot}%{_datadir}/themes
 mkdir -p %{buildroot}%{_datadir}/themes/rosa-elementary
 cp -rf ./* %{buildroot}%{_datadir}/themes/rosa-elementary
 mkdir -p %{buildroot}%{_datadir}/apps/aurorae/themes/rosa/
-cp -rf ./rosa-1.0.0/* %{buildroot}%{_datadir}/apps/aurorae/themes/rosa/
+cp -rf ./rosa-1.0.1/* %{buildroot}%{_datadir}/apps/aurorae/themes/rosa/
 
 %files
 %{_datadir}/themes/*

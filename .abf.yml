@@ -1,7 +1,5 @@
-removed_sources:
-  rosa-elementary-theme-2.5.1.tar.gz: 366a93c16ee3f85bc3061628d6109a9983302232
 sources:
-  metacity-1.tar.bz2: b82556e78a2b7a12eb9d2e241a674204596d46b0
-  rosa-aurorae-1.0.0.tar.xz: aa91eed5d36d2581d61f52487873105242e17168
-  rosa-elementary-theme-2.5.2.tar.gz: b74cfb398a704cbe3da5b76ce185ac4a1b03cb3b
+  metacity-1.tar.bz2: 812484bd0f3348b679cf5b41ca84c88ff67cdcb1
+  rosa-aurorae-1.0.1.tar.xz: 989f2d1d0772184a1ac1f58efb6bfce089c757fa
+  rosa-elementary-theme-2.6.1.tar.gz: 7f79071937449c62cc64bf2ea7508338533cb49f
   rosa-elementary-theme-openbox.tar.gz: aa17e3e6712e724b1410b02d659f31c010cd7ae9
