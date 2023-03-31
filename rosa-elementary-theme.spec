@@ -1,7 +1,7 @@
 Summary:	ROSA-elementary theme
 Name:		rosa-elementary-theme
 Version:	2.6.1
-Release:	10
+Release:	11
 Source0:	%{name}-%{version}.tar.gz
 #Theme for openbox
 Source1:	%{name}-openbox.tar.gz
