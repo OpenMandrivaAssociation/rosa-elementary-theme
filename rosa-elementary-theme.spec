@@ -11,7 +11,7 @@ Source2:	metacity-1.tar.bz2
 Source3:	rosa-aurorae-1.0.1.tar.xz
 License:	GPLv2
 Group:		Graphical desktop/Other
-URL:		http://www.rosalinux.com
+URL:		https://www.rosalinux.com
 BuildArch:	noarch
 Requires:	murrine
 Requires:	gtk-aurora-engine
